@@ -8,7 +8,7 @@
 
 import Foundation
 
-class TFLogger {
+public class TFLogger {
     
     static let shouldLog = true
     static let useDelimiter = true
@@ -134,7 +134,7 @@ extension TFLogger {
         
     }
 }
-extension String {
+public extension String {
     
     func insert(string:String,ind:Int) -> String {
         return  String(self.characters.prefix(ind)) + string + String(self.characters.suffix(self.characters.count-ind))
