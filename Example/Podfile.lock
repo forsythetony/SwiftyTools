@@ -1,0 +1,14 @@
+PODS:
+  - SwiftyTools (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyTools (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyTools:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SwiftyTools: 5eec1348bd7dd49b819c4769e1424242a9b8d57b
+
+COCOAPODS: 0.39.0
